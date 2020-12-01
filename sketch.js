@@ -90,6 +90,6 @@ function mouseReleased(){
  function keyPressed(){
   if(keyCode === 32){
 //Matter.Body.setPosition(polygon.body,{x:200,y:50});
- rope.attach(polygon.body);
+ rope.attach(this.polygon);
   }
 }
